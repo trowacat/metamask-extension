@@ -14,6 +14,9 @@
   "accountName": {
     "message": "Account Name"
   },
+  "accountOptions": {
+    "message": "Account Options"
+  },
   "accountSelectionRequired": {
     "message": "You need to select an account!"
   },
@@ -146,7 +149,7 @@
   "close": {
     "message": "Close"
   },
-  "chromeRequiredForHardwareWallets":{
+  "chromeRequiredForHardwareWallets": {
     "message": "You need to use MetaMask on Google Chrome in order to connect to your Hardware Wallet."
   },
   "confirm": {
@@ -430,6 +433,9 @@
   "gasLimitTooLow": {
     "message": "Gas limit must be at least 21000"
   },
+  "gasUsed": {
+    "message": "Gas Used"
+  },
   "generatingSeed": {
     "message": "Generating Seed..."
   },
@@ -513,7 +519,7 @@
     "message": "Import Account"
   },
   "importAccountMsg": {
-    "message":" Imported accounts will not be associated with your originally created MetaMask account seedphrase. Learn more about imported accounts "
+    "message": " Imported accounts will not be associated with your originally created MetaMask account seedphrase. Learn more about imported accounts "
   },
   "importAnAccount": {
     "message": "Import an account"
@@ -710,7 +716,7 @@
   "noDeposits": {
     "message": "No deposits received"
   },
-  "noConversionRateAvailable":{
+  "noConversionRateAvailable": {
     "message": "No Conversion Rate Available"
   },
   "noTransactionHistory": {
@@ -747,9 +753,6 @@
   "openInTab": {
     "message": "Open in tab"
   },
-  "accountOptions": {
-    "message": "Account Options"
-  },
   "or": {
     "message": "or",
     "description": "choice between creating or importing a new account"
@@ -766,21 +769,21 @@
   "parameters": {
     "message": "Parameters"
   },
-  "passwordNotLongEnough": {
-    "message": "Password not long enough"
-  },
-  "passwordsDontMatch": {
-    "message": "Passwords Don't Match"
-  },
   "password": {
     "message": "Password"
   },
   "passwordCorrect": {
     "message": "Please make sure your password is correct."
   },
+  "passwordsDontMatch": {
+    "message": "Passwords Don't Match"
+  },
   "passwordMismatch": {
     "message": "passwords don't match",
     "description": "in password creation process, the two new password fields did not match"
+  },
+  "passwordNotLongEnough": {
+    "message": "Password not long enough"
   },
   "passwordShort": {
     "message": "password not long enough",
@@ -883,9 +886,6 @@
   },
   "retryWithMoreGas": {
     "message": "Retry with a higher gas price here"
-  },
-  "walletSeed": {
-    "message": "Wallet Seed"
   },
   "restore": {
     "message": "Restore"
@@ -1246,7 +1246,7 @@
     "message": "Ooops! Something went wrong...."
   },
   "unknownCameraError": {
-    "message": "There was an error while trying to access you camera. Please try again..."
+    "message": "There was an error while trying to access your camera. Please try again..."
   },
   "unlock": {
     "message": "Unlock"
@@ -1284,6 +1284,9 @@
   },
   "visitWebSite": {
     "message": "Visit our web site"
+  },
+  "walletSeed": {
+    "message": "Wallet Seed"
   },
   "warning": {
     "message": "Warning"
