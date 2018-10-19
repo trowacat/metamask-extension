@@ -11,8 +11,7 @@ sleep 5
 cd test/e2e/beta/
 rm -rf drizzle-test
 mkdir drizzle-test && cd drizzle-test
-npm set audit false
-npm install truffle
+npm install truffle --loglevel=error
 truffle unbox drizzle
 echo "Deploying contracts for Drizzle test..."
 truffle compile && truffle migrate
