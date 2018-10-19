@@ -12,8 +12,7 @@ cd test/e2e/beta/
 rm -rf drizzle-test
 mkdir drizzle-test && cd drizzle-test
 npm install truffle
-echo "audit=false" > .npmrc
-truffle unbox drizzle --force
+npm_config_audit=false truffle unbox drizzle
 echo "Deploying contracts for Drizzle test..."
 truffle compile && truffle migrate
 BROWSER=none npm start >> /dev/null 2>&1 &
